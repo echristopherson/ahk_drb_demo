@@ -33,7 +33,8 @@ the folder the scripts are in. Invoke *server.rb*, e.g. by typing `ruby
 server.rb`. I've only tested this with "MRI" Ruby 1.9, but it should work with
 other implementations; if you use a Ruby interpreter called something other
 than *ruby.exe*, make sure to change the name used in the hotkeys defined in
-*ahk_script.ahk* too.
+*ahk_script.ahk* too (the name used here is *rubyw*, which launches MRI Ruby
+without opening a console window).
 
 Defined hotkeys
 ---------------
