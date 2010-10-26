@@ -41,18 +41,18 @@ Defined hotkeys
 The included AutoHotkey script, *ahk_script.ahk*, defines three global
 hotkeys:
 
-* Windows+Ctrl+A: Display a message box, and a message in the command prompt
-  window where the server is running.
+* Windows+Control+A: Display a message box, and a message in the command
+  prompt window where the server is running.
 
-* Windows+Ctrl+B: Display a message box, and a message in the command prompt
-  window where the server is running.
+* Windows+Control+B: Display a message box, and a message in the command
+  prompt window where the server is running.
 
-* Windows+Ctrl+C: Display a message box, and a message in the command prompt
-  window where the server is running.
+* Windows+Control+C: Display a message box, and a message in the command
+  prompt window where the server is running.
 
-* Windows+Ctrl+X: Display a message box, and a message in the command prompt
-  window where the server is running; then exit the AutoHotkey script and Ruby
-  server script.
+* Windows+Control+X: Display a message box, and a message in the command
+  prompt window where the server is running; then exit the AutoHotkey script
+  and Ruby server script.
 
 About Ruby
 ----------
