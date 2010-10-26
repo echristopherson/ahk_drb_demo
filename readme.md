@@ -2,7 +2,9 @@ ahk_drb_demo
 ============
 
 Copyright 2010 Eric Christopherson
+
 echristopherson at gmail dot com
+
 Licensed under the GNU GPL, version 2
 
 This is a demo of using AutoHotkey with Ruby and DRb (distributed Ruby). It
@@ -15,10 +17,10 @@ hotkeys cause methods to be called on the server Ruby script.
 Installation
 ------------
 
-Make a folder and put these scripts inside it. Download AutoHotkey.dll, if
+Make a folder and put these scripts inside it. Download *AutoHotkey.dll*, if
 you don't already have it; it's available at
-<http://www.autohotkey.net/~HotKeyIt/AutoHotkey/>. From the AutoHotkey.dll
-archive, copy Win32w\AutoHotkey.dll into the folder these scripts are in.
+<http://www.autohotkey.net/~HotKeyIt/AutoHotkey/>. From the *AutoHotkey.dll*
+archive, copy *Win32w\AutoHotkey.dll* into the folder these scripts are in.
 
 Invocation
 ----------
@@ -35,12 +37,16 @@ Defined hotkeys
 
 The included AutoHotkey script, *ahk_script.ahk*, defines three global
 hotkeys:
+
 * Windows+Ctrl+A: Display a message box, and a message in the command prompt
   window where the server is running.
+
 * Windows+Ctrl+B: Display a message box, and a message in the command prompt
   window where the server is running.
+
 * Windows+Ctrl+C: Display a message box, and a message in the command prompt
   window where the server is running.
+
 * Windows+Ctrl+X: Display a message box, and a message in the command prompt
   window where the server is running; then exit the AutoHotkey script and Ruby
   server script.
