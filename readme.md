@@ -21,7 +21,7 @@ Make a folder and put these scripts inside it. Download *AutoHotkey.dll*, if
 you don't already have it; it's available at
 <http://www.autohotkey.net/~HotKeyIt/AutoHotkey/>. From the *AutoHotkey.dll*
 archive, copy *Win32w\AutoHotkey.dll* into the folder these scripts are in.
-Finally, register the DLL by opening a command prompt window (press Windows+R
+Finally, register the DLL by opening a command prompt window (press Win+R
 followed by `cmd` and Enter) and `cd`ing to the folder the scripts are in, and
 then typing `regsvr32 AutoHotkey.dll`.
 
@@ -41,16 +41,16 @@ Defined hotkeys
 The included AutoHotkey script, *ahk_script.ahk*, defines three global
 hotkeys:
 
-* Windows+Control+A: Display a message box, and a message in the command
+* Win+Ctrl+A: Display a message box, and a message in the command
   prompt window where the server is running.
 
-* Windows+Control+B: Display a message box, and a message in the command
+* Win+Ctrl+B: Display a message box, and a message in the command
   prompt window where the server is running.
 
-* Windows+Control+C: Display a message box, and a message in the command
+* Win+Ctrl+C: Display a message box, and a message in the command
   prompt window where the server is running.
 
-* Windows+Control+X: Display a message box, and a message in the command
+* Win+Ctrl+X: Display a message box, and a message in the command
   prompt window where the server is running; then exit the AutoHotkey script
   and Ruby server script.
 
