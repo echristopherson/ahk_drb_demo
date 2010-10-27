@@ -10,4 +10,5 @@ uri = 'druby://localhost:8787'
 DRb.start_service
 server = DRbObject.new_with_uri(uri)
 
+# Call method on server, corresponding to first argument of this script
 server.send ARGV[0]
